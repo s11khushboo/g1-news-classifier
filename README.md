@@ -63,9 +63,13 @@ F1-score
 You can predict the category of a new article using the saved model and vectorizer:
 
 # 📊 Results
+Accuracy: 0.9651588347240521
+              precision    recall  f1-score   support
 
-| Metric   | Score |
-| :------- | :---: |
-| Accuracy |  0.94 |
-| F1-score |  0.91 |
+           0       0.97      0.96      0.97      3529
+           1       0.96      0.97      0.96      3302
+
+    accuracy                           0.97      6831
+   macro avg       0.97      0.97      0.97      6831
+weighted avg       0.97      0.97      0.97      6831
 
