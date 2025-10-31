@@ -22,6 +22,8 @@ Preprocessing of raw text (tokenization, stopword removal, etc.)
 
 Vectorization using TF-IDF
 
+GloVe for embeddings
+
 Training and tuning an XGBoost classifier
 
 Evaluation using precision, recall, F1-score, and confusion matrix
