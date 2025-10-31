@@ -1,6 +1,6 @@
-# **📰 NLP News Classifier using TF-IDF and XGBoost**
+# **📰 NLP News Classifier using TF-IDF, GloVe embedding and XGBoost**
 
-This project implements a news classifier that automatically categorizes news text into fraud and real using TF-IDF (Term Frequency–Inverse Document Frequency) for feature extraction and XGBoost for classification.
+This project implements a news classifier that automatically categorizes news text into fraud and real using TF-IDF (Term Frequency–Inverse Document Frequency), GloVe embedding for feature extraction and XGBoost for classification.
 
 ---
 
@@ -33,17 +33,17 @@ Support for new, unseen news article predictions
 
 The preprocessing pipeline includes:
 
-Lowercasing
+Tokenize the words
 
-Removing punctuation, numbers, and stopwords
-
-Lemmatization (optional)
+Removing stopwords
 
 TF-IDF vectorization for feature extraction
 
+GloVe for word-level embeddings
+
 ## 🤖 Model Training
 
-We train an XGBoost Classifier on the TF-IDF features.
+We train an XGBoost Classifier on the embedding matix
 
 ## 📈 Evaluation
 
