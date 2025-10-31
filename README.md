@@ -64,6 +64,8 @@ You can predict the category of a new article using the saved model and vectoriz
 
 # 📊 Results
 Accuracy: 0.9651588347240521
+
+
               precision    recall  f1-score   support
 
            0       0.97      0.96      0.97      3529
